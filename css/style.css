@@ -1,0 +1,639 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+
+
+.main{
+  
+    width: 100vw;
+    margin: 0 auto;
+    height: 100vh;
+
+    
+    
+}
+
+.logo{
+  color: white;
+  
+}
+.login{
+  color: white;
+}
+.image{
+  background-image: url(/images/hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 100vh;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    
+
+    
+}
+.nav>.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+    
+    
+}
+.menu>li{
+    
+    list-style: none;
+    color: white
+}
+
+.member>button{
+    background-color: #23a6f0;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    padding: 14px;
+    
+}
+.member{
+  
+ 
+}
+.body1{
+   
+    margin: 0 auto;
+    height: 40vh;
+    width: 70vh;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.quote>button{
+    margin-top: 30px;
+    padding: 10px;
+    color: white;
+    border-radius: 30px;
+    margin-left: 30px;
+    background-color: #23a6f0;
+    border-color:  #23a6f0;
+}
+.content>h4{
+    align-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.content{
+    margin: 20px;
+}
+.below-content{
+    margin-top: 20px;
+}
+.cards{
+    height: 120px;
+    width: 170px;
+    background-color: white;
+    padding: 20px;
+    font-size: small;
+    color: black;
+}
+.cards>.fa-solid{
+  
+  
+  padding: 10px;
+  font-size: large;
+  color: #23a6f0;
+}
+
+.fa-solid{
+    color: #23a6f0;
+    padding-bottom: 8px;
+    font-size: 38px;
+}
+.card1> h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    margin-bottom: 20px;
+}
+
+.card-container{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+.second-card{
+  gap: 20px;
+  
+ 
+}
+.second-card>.cards11{
+  background-color: white;
+}
+.second-card>.cards11>.fa-solid{
+  color: #23a6f0;
+}
+.second-card>.cards22{
+  background-color: white;
+  color: black;
+}
+.second-card>.cards22>.fa-solid{
+  color: #23a6f0;
+}
+.second-card>.cards3{
+  background-color: white;
+  color: black;
+}
+.second-card>.cards3>.fa-solid{
+  color: #23a6f0;
+}
+.company-info{
+  text-align: left;
+}
+.cards3{
+    height: 120px;
+    width: 170px;
+    background-color: #23a6f0;
+    padding: 20px;
+    color: white;
+    font-size: small;
+}
+.card-container{
+ margin-top: 149px;
+}
+.cards3>.fa-solid{
+    color: white;
+    padding-bottom: 8px;
+    font-size: larger;
+}
+cards212{
+
+}
+.second-card33>.cards-price{
+  border: solid 1px;
+  border-color: #23a6f0;
+}
+
+
+
+
+.cards22{
+    height: 120px;
+    width: 170px;
+    background-color: rgb(69, 90, 214);
+    padding: 20px;
+    color: white;
+    font-size: small;
+   
+}
+.fa-regular{
+    margin-bottom: 20px;
+    font-size: 38px;
+    color: #23a6f0;;
+}
+.cards11{
+    height: 120px;
+    width: 170px;
+    background-color: rgb(13, 35, 202);
+    padding: 20px;
+    color: black;
+    font-size: small;
+}
+.main-container{
+ 
+}
+
+.second-card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+
+}
+.fa-solid{
+    margin-bottom: 20px;
+    font-size: 34px;
+    color: white;
+    
+}
+.card12{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+}
+
+.cards33{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+}
+
+.description{
+    font-size: small;
+    text-align: center;
+    margin-top: 4px;
+}
+.second-card>.cards12{
+    height: 150px;
+    width: 170px;
+    background-color: #ffffff;
+    padding: 20px;
+    padding-bottom: 40px;
+
+}
+.checked {
+    color: orange;
+  }
+
+  .rating{
+    text-align: center;
+    padding-top: 14px;
+  }
+
+  .second-card>.cards21{
+    height: 130px;
+    width: 90px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+   
+  }
+  .second-card>.cards212{
+ 
+    height: 40px;
+    width: 800px;
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgba(202, 13, 170, 0.719);
+  }
+
+  .cards212>input{
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .cards212>label {
+    padding: 15px;
+    background-color: rgb(32, 32, 204);
+    color: white;
+
+    border-radius: 7px;
+  }
+  .subscribe{
+   
+  
+  }
+  .cards200{
+    text-align: center;
+    background-color: white;
+    height: 100px;
+  }
+  .pracing{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .cards200>p{
+    
+  }
+
+  .cards-price{
+    width: 240px;
+    height: 430px;
+    background-color: antiquewhite;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    border:solid 1px;
+
+
+  }
+  .packages>li{
+    list-style: none;
+    text-align: left;
+  }
+  .buttons{
+    background-color: #23a6f0;
+    margin-top: 60px;
+    padding: 10px 25px 10px 25px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    border-color: #23a6f0;
+
+
+
+  }
+  .service{
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+  }
+  .organise{
+    font-weight: bold;
+    padding: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .charges{
+    font-size: x-large;
+    color:  #23a6f0;
+    font-weight: bold;
+  }
+  .price1{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .prices{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    justify-content: center;
+    align-items: center;
+    color: #23a6f0;
+    margin-bottom: 15px;
+  }
+  .packages{
+    margin-top: 20px;
+    
+  }
+  .cards-price{
+    background-color: white;
+    border-color: #23a6f0;
+    border: solid px;
+    border-radius: 8px;
+    padding-bottom: 40px;
+    
+    
+  }
+  .cards-price2{
+    
+      width: 240px;
+      height: 430px;
+      background-color: #252b42;
+      padding: 20px 10px 20px 10px;
+      text-align: center;
+      color: white;
+      padding-top: 20px;
+      margin-bottom: 20px;
+      padding-bottom: 68px;
+      border-radius: 8px;
+      
+  }
+  .second-card33{
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.cards-price44{
+  background-color: #252b42;
+  border-color: #23a6f0;;
+  border: solid 1px;
+  border-radius: 8px;
+  border-color: #252b42;
+  width: 80%;
+  height: 400px;
+  margin-top: 30px;
+  margin-left: 70px;
+  padding-left: 80px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  
+  
+
+}
+
+.outer-branch{
+  background-color: #252b42;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+.map{
+
+}
+.branches>h4{
+  margin-bottom: 14px;
+  font-weight: bold;
+  font-size: x-large;
+}
+.branches>p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  
+}
+
+.second-card331{
+
+  display: flex;
+  flex-direction: row;
+ 
+  align-items: center;
+  justify-content: center;
+  margin-top: -180px;
+
+  
+}
+.cards-price99{
+  background-color: white;
+  border-color: #23a6f0;
+  border: solid 1px;
+  border-left: 0px;
+ border-color: rgb(241, 235, 235);
+ border-bottom: none;
+  width: 494px;
+
+  
+}
+.cards-price91{
+  background-color: white;
+  border-color: #23a6f0;
+  border: solid 1px;
+  border-right: 0px;
+  border-color: rgb(241, 235, 235);
+  
+ margin-top: 20px;
+  
+}
+.form2>label{
+
+}
+
+.form-content{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.form2>input{
+  width: 380px;
+  background-color: rgb(247, 241, 241);
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+}
+.dep{
+  width: 400px;
+  background-color: rgb(248, 242, 242);
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+}
+
+.appoint{
+  width: 400px;
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+  color: rgb(50, 50, 167);
+  background-color: #23a6f0;
+  color: white;
+
+}
+.dp{
+  width: 400px;
+  background-color: rgb(250, 246, 246);
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+}
+.booking{
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.second-card331{
+  
+
+}
+.contact-us{
+  background-color: #23a6f0;
+  color: white;
+  padding: 10px;
+  border-radius: 7px;
+  text-align: center;
+}
+.second-card>.cards2121{
+  background-color: brown;
+  height: 40px;
+  width: 800px;
+  background-color: white;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: large;
+  font-weight: bold;
+  background-color: rgba(248, 242, 247, 0.719);
+}
+
+.company-menu{
+  font-size: small;
+  text-align: left;
+}
+.company-menu>li{
+  list-style: none;
+  line-height: 30px;
+}
+.company-info{
+  font-size: 13px;
+  font-weight: bold;
+  padding-bottom: 7px;
+}
+.second-card>.cards202{
+  height: 140px;
+  width: 140px;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.company-menu>li>i{
+  color: #23a6f0;
+  width: 3px;
+  height: 3px;
+  margin-right: 13px;
+
+  font-size: small;
+}
+
+.company-menu{
+  flex-direction: column ;
+  display: flex;
+  gap: 4px;
+  justify-content: space-between;
+  font-size: small;
+}
+.second-card>.cards208{
+  height: 140px;
+  width: 170px;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 7px
+}
+
+.contact-us1{
+  gap: 30px;
+}
+
+.fa-brands{
+  color: #23a6f0;
+}
+
+.second-card>.cards2120{
+  background-color: brown;
+  height: 40px;
+  width: 800px;
+  background-color: rgb(59, 5, 5);
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: large;
+  font-weight: bold;
+  background-color: rgba(248, 242, 247, 0.719);
+  align-items: center;
+  justify-content: center;
+}
+.industrys{
+font-size: x-large;
+}
+.industry-content{
+  font-size: small;
+  font-weight: lighter;
+  text-align: center;
+}
